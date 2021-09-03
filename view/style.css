@@ -57,7 +57,7 @@ body {
 }
 
 a:first-child {
-    background: url("../assets/vs.png");
+    background: url("./assets/vs.png");
     background-position: center;
     background-repeat: no-repeat;
 
@@ -65,7 +65,7 @@ a:first-child {
 }
 
 a:last-child {
-    background: url("../assets/robot.png");
+    background: url("./assets/robot.png");
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -94,7 +94,7 @@ a:last-child {
     width: 80px;
     height: 80px;
 
-    background: url("../assets/x-icon.png");
+    background: url("./assets/x-icon.png");
     background-size: cover;
     background-position: center;
 }
