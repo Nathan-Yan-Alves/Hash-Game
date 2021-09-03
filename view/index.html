@@ -6,21 +6,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Hash Game</title>
         <link rel="stylesheet" href="./style.css" />
-        <script src="./model/model.js" defer></script>
-        <script src="./controller/controller.js" defer></script>
     </head>
     <body>
         <div class="container">
-            <h1>Hash Game</h1>
-            <div class="content">
-                <canvas id="screen" width="500px" height="500px"></canvas>
-                <div class="circle hidden"></div>
-                <div class="cross hidden"></div>
-            </div>
-            <div class="endGame hidden">
-                <h1></h1>
-                <h2>Clique para jogar novamente</h2>
-                <img src="./assets/refresh.png" alt="Restart game" />
+            <h1 id="title">Hash game</h1>
+            <h2 id="question">
+                Play versus a friend or play solo versus a bot?
+            </h2>
+            <div class="buttons">
+                <a href="./game.html?isPlay=false"></a>
+                <a href="./game.html?isPlay=true"></a>
             </div>
         </div>
     </body>
